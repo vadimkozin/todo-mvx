@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>Todo.js</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+
+    <body>
+        <main id="app">
+            <header>
+                <h1>Todo.js (MVVM)</h1>
+            </header>
+            
+            <div>
+                <button id="show-model-list">Cписок в модели</button>
+                <button id="show-ul-list">Cписок в ul</button>
+                <span id="message"></span>
+            </div>
+
+                <ul id="todo-list">
+            </ul>
+
+            <form id="todo-form">
+                <input id="add-input" type="text">
+                <button id="add-button" type="submit">Добавить</button>
+            </form>
+        </main>
+
+        <script src="js/dom.js"></script>
+        <script src="js/model.js"></script>
+        <script src="js/view.js"></script>
+        <script src="js/view-model.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
