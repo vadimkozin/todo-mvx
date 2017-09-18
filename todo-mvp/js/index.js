@@ -1,7 +1,7 @@
 let tasks = [
-    {task:'Выспаться', done: false},
-    {task:'Еще раз выспаться', done: false},
-    {task:'Еще чуть-чуть'}
+    {task:'Выспаться (mvp)', done: false},
+    {task:'Еще раз (mvp)', done: false},
+    {task:'Еще чуть-чуть (mvp)'}
 ];
 
 const model = new Model(tasks);

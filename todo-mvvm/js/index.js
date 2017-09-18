@@ -1,7 +1,7 @@
 let tasks = [
-    {task:'Выспаться', done: false},
-    {task:'Еще раз выспаться', done: false},
-    {task:'Еще чуть-чуть'}
+    {task:'Выспаться (mvvm)', done: false},
+    {task:'Еще раз (mvvm)', done: false},
+    {task:'Еще чуть-чуть (mvvm)'}
 ];
 const model = new Model(tasks);
 const viewModel = new ViewModel(model);
